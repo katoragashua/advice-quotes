@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    padding: 1em 0;
+    font-size: 18px;
+    font-family: "calibri", sans-serif, monospace;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    max-width: 80%;
+    height: 80vh;
+    padding: 3rem;
+    background: linear-gradient(90deg, teal, goldenrod);
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: .4rem .4rem .4rem black;
+}
+
+.quote-div {
+    /* max-width: 200px;
+    max-height: 200px; */
+    width: auto;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'caveat', cursive;
+    font-size: 2rem;
+    border-radius: 20px;
+    margin: auto auto;
+    background-color: burlywood;
+    box-shadow: .4rem .4rem .4rem black;
+}
+
+.quote-btn {
+    padding: 1em;
+    width: 40%;
+    margin: 0 auto;
+    font-weight: bold;
+    box-shadow: .4rem .4rem .4rem black;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+small {
+    font-size: 1rem;
+    margin-top: auto;
+}
